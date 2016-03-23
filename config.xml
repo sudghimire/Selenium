@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<setting>
+		<environment>dev</environment>
+		<noofprofile>8</noofprofile>
+		<dropreport>no</dropreport>
+		<browser>Firefox</browser>
+		<browserLocation>chromedriver.exe</browserLocation>
+		<installationpath>D:\\VeriskHealth\\Master_SVN\\SeleniumRM\\</installationpath>
+	</setting>
+	<notes>
+	      <environment>can be dev/others - if dev is used, only profiledev will run.</environment>
+		<password>password is base 64 encoded</password>
+	</notes>
+
+	<profiledev>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp
+		</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<repName>Selenium Development Test</repName>
+		<isCTP>No</isCTP>
+		<analysisType1>Full Cycle</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>Age-Gender-Geography</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profiledev>
+
+
+	<profile1>
+		<repName>Selenium R2 #TC3685</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Full Cycle</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>None</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile1>
+
+	<profile2>
+		<repName>Selenium R2 #TC3686</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Rolling Year</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>Age-Gender</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile2>
+
+	<profile3>
+		<repName>Selenium R2 #TC3687</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Rolling Year</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender-Geography</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile3>
+
+	<profile4>
+		<repName>Selenium R2 #TC3688</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Full Cycle</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>None</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile4>
+
+	<profile5>
+		<repName>Selenium R2 #TC3689</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Contract Year</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile5>
+
+	<profile6>
+		<repName>Selenium R2 #TC3690</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Rolling Year</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender-Geography</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile6>
+
+	<profile7>
+		<repName>Selenium R2 #TC3691</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Year To Date</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>None</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile7>
+
+	<profile8>
+		<repName>Selenium R2 #TC3692</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Full Cycle</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile8>
+
+	<profile9>
+		<repName>Selenium R2 #TC3693</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Contract Year</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>Age-Gender-Geography</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile9>
+
+	<profile10>
+		<repName>Selenium R2 #TC3694</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Contract Year</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>None</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile10>
+
+	<profile11>
+		<repName>Selenium R2 #TC3695</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Rolling Year</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile11>
+
+	<profile12>
+		<repName>Selenium R2 #TC3696</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Year To Date</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender-Geography</adjNorm>
+		<monthlyCost>PEPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile12>
+
+	<profile13>
+		<repName>Selenium R2 #TC3697</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Full Cycle</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>None</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile13>
+
+	<profile14>
+		<repName>Selenium R2 #TC3698</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Contract Year</analysisType1>
+		<analysisType2>Paid</analysisType2>
+		<adjNorm>Age-Gender</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile14>
+
+	<profile15>
+		<repName>Selenium R2 #TC3699</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Rolling Year</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>Age-Gender-Geography</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RI</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile15>
+
+	<profile16>
+		<repName>Selenium R2 #TC3700</repName>
+		<url>https://nvscmlinq1.d2hawkeye.net:8302/ReportManager/Welcome.jsp</url>
+		<username>sudghimire</username>
+		<password>cnJycnJycnI=</password>
+		<client>Demo Atern - Vertica CTP [4-key]</client>
+		<isCTP>No</isCTP>
+		<analysisType1>Year To Date</analysisType1>
+		<analysisType2>Incurred</analysisType2>
+		<adjNorm>None</adjNorm>
+		<monthlyCost>PMPM</monthlyCost>
+		<riskScore>RRS</riskScore>
+		<genInterval>Single</genInterval>
+		<repFormat>Both</repFormat>
+	</profile16>
+
+
+</config>
